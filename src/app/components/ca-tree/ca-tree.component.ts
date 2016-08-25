@@ -24,6 +24,7 @@ export class CaTreeComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.caTreeService.caTreeComponent = this;
     this.model = new CaTreeMvcModel();
     //load root + next level to show proper icon
     this.caTreeService.getNodes().subscribe(

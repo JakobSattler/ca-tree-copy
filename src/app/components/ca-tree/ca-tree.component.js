@@ -16,6 +16,7 @@ var CaTreeComponent = (function () {
     }
     CaTreeComponent.prototype.ngOnInit = function () {
         var _this = this;
+        this.caTreeService.caTreeComponent = this;
         this.model = new ca_tree_mvc_model_1.CaTreeMvcModel();
         //load root + next level to show proper icon
         this.caTreeService.getNodes().subscribe(function (data) {

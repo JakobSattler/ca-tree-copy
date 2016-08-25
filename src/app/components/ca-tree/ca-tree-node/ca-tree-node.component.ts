@@ -12,7 +12,6 @@ import {CaTreeComponent} from '../ca-tree.component';
   templateUrl: 'ca-tree-node.component.html',
   styleUrls: ['ca-tree-node.component.css'],
   directives: [CaTreeNodeComponent],
-  providers: [CaTreeService],
   pipes: [NodeFilter]
 })
 export class CaTreeNodeComponent implements AfterViewChecked {
@@ -43,8 +42,11 @@ export class CaTreeNodeComponent implements AfterViewChecked {
 
   public caTreeComponent: CaTreeComponent;
 
-  constructor(@Inject(forwardRef(() => CaTreeComponent)) _caTreeComponent: CaTreeComponent) {
-    this.caTreeComponent = _caTreeComponent;
+  ngOnInit() {
+    this.caTreeComponent = this.caTreeService.caTreeComponent;
+  }
+
+  constructor(private caTreeService: CaTreeService) {
   }
 
   ngAfterViewChecked(): void {
