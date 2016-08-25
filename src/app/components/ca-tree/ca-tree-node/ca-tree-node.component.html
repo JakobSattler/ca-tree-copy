@@ -56,12 +56,12 @@
   </span>
 </div>
 
-<template [ngIf]="node.extended">
-  <co-tree-node *ngFor="let res of model.resources | nodefilter : 'parentNr' : node.nr"
-                [node]="res"
-                [level]="level + 1"
-                [model]="model"
-                (nodeSelected)="caTreeComponent.onNodeSelected($event)"
-                (nodeExtended)="caTreeComponent.onNodeExtended($event)">
-  </co-tree-node>
-</template>
+<!--<template [ngIf]="node.extended">-->
+  <!--<co-tree-node *ngFor="let res of model.resources | nodefilter : 'parentNr' : node.nr"-->
+                <!--[node]="res"-->
+                <!--[level]="level + 1"-->
+                <!--[model]="model"-->
+                <!--(nodeSelected)="caTreeComponent.onNodeSelected($event)"-->
+                <!--(nodeExtended)="caTreeComponent.onNodeExtended($event)">-->
+  <!--</co-tree-node>-->
+<!--</template>-->

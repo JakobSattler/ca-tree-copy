@@ -1,109 +1,115 @@
-"use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var core_1 = require('@angular/core');
-var ca_tree_mvc_model_1 = require('./ca-tree-mvc-model');
-var CaTreeNodeComponent = (function () {
-    function CaTreeNodeComponent(caTreeService) {
-        this.caTreeService = caTreeService;
-        this.paddingPerLevel = 10;
-        this.imgURLClose = 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-44945-128px.png';
-        this.imgURLOpen = 'https://freeiconshop.com/files/edd/folder-open-solid.png';
-        this.nodeSelected = new core_1.EventEmitter();
-        this.nodeExtended = new core_1.EventEmitter();
-    }
-    CaTreeNodeComponent.prototype.ngOnInit = function () {
-        this.caTreeComponent = this.caTreeService.caTreeComponent;
-    };
-    CaTreeNodeComponent.prototype.ngAfterViewChecked = function () {
-        if (this.node.changing) {
-            this.nodeTextInput.nativeElement.focus();
-        }
-    };
-    CaTreeNodeComponent.prototype.onNodeExtended = function () {
-        this.nodeExtended.emit(this.node);
-    };
-    CaTreeNodeComponent.prototype.getPadding = function () {
-        return this.paddingPerLevel * this.level + 'px';
-    };
-    CaTreeNodeComponent.prototype.onNodeSelected = function () {
-        this.nodeSelected.emit(this.node);
-    };
-    CaTreeNodeComponent.prototype.changePic = function () {
-        var newPic = prompt("Change Pic for Open", "");
-        if (newPic) {
-            this.imgURLClose = newPic;
-        }
-        newPic = prompt("Change Pic for Close", "");
-        if (newPic) {
-            this.imgURLOpen = newPic;
-        }
-    };
-    CaTreeNodeComponent.prototype.editNode = function () {
-        this.node.changing = true;
-    };
-    CaTreeNodeComponent.prototype.addNode = function () {
-        this.node.extended = true;
-        var node = {
-            name: '',
-            nr: this.model.getNewID(),
-            parentNr: this.node.nr,
-            extended: false,
-            changing: true,
-            selected: false,
-            childSelected: false
-        };
-        this.model.addNode(node);
-    };
-    CaTreeNodeComponent.prototype.finishNodeChange = function () {
-        this.nodeTextInput.nativeElement.blur();
-        this.node.changing = false;
-        if (this.nodeTextInput.nativeElement.value !== '') {
-            this.node.name = this.nodeTextInput.nativeElement.value;
-        }
-        else if (this.node.name === '') {
-            this.model.removeNode(this.node);
-        }
-    };
-    CaTreeNodeComponent.prototype.removeNode = function () {
-        this.model.removeNode(this.node);
-    };
-    __decorate([
-        core_1.Input()
-    ], CaTreeNodeComponent.prototype, "model");
-    __decorate([
-        core_1.Input()
-    ], CaTreeNodeComponent.prototype, "level");
-    __decorate([
-        core_1.Input()
-    ], CaTreeNodeComponent.prototype, "node");
-    __decorate([
-        core_1.Input()
-    ], CaTreeNodeComponent.prototype, "imgURLClose");
-    __decorate([
-        core_1.Output()
-    ], CaTreeNodeComponent.prototype, "nodeSelected");
-    __decorate([
-        core_1.Output()
-    ], CaTreeNodeComponent.prototype, "nodeExtended");
-    __decorate([
-        core_1.ViewChild('nodeTextInput')
-    ], CaTreeNodeComponent.prototype, "nodeTextInput");
-    CaTreeNodeComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'co-tree-node',
-            templateUrl: 'ca-tree-node.component.html',
-            styleUrls: ['ca-tree-node.component.css'],
-            directives: [CaTreeNodeComponent],
-            pipes: [ca_tree_mvc_model_1.NodeFilter]
-        })
-    ], CaTreeNodeComponent);
-    return CaTreeNodeComponent;
-}());
-exports.CaTreeNodeComponent = CaTreeNodeComponent;
+//import {
+//  Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewChecked,
+//  Inject, forwardRef
+//} from '@angular/core';
+//import {CaTreeService} from '../../../services/ca-tree.service';
+//import {BasicTreeNode, CaTreeMvcModel, NodeFilter} from '../../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc-model';
+//import {CaTreeComponent} from '../ca-tree.component';
+//
+//@Component({
+//  moduleId: module.id,
+//  selector: 'co-tree-node',
+//  templateUrl: 'ca-tree-node.component.html',
+//  styleUrls: ['ca-tree-node.component.css'],
+//  directives: [CaTreeNodeComponent],
+//  pipes: [NodeFilter]
+//})
+//export class CaTreeNodeComponent implements AfterViewChecked {
+//
+//  paddingPerLevel: number = 10;
+//
+//  @Input()
+//  model: CaTreeMvcModel;
+//
+//  @Input()
+//  level: number;
+//
+//  @Input()
+//  node: BasicTreeNode;
+//
+//  @Input()
+//  imgURLClose: String = 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-44945-128px.png';
+//  imgURLOpen: String = 'https://freeiconshop.com/files/edd/folder-open-solid.png';
+//
+//  @Output()
+//  nodeSelected: EventEmitter<BasicTreeNode> = new EventEmitter<BasicTreeNode>();
+//
+//  @Output()
+//  nodeExtended: EventEmitter<BasicTreeNode> = new EventEmitter<BasicTreeNode>();
+//
+//  @ViewChild('nodeTextInput')
+//  nodeTextInput: ElementRef;
+//
+//  public caTreeComponent: CaTreeComponent;
+//
+//  ngOnInit() {
+//    this.caTreeComponent = this.caTreeService.caTreeComponent;
+//  }
+//
+//  constructor(private caTreeService: CaTreeService) {
+//  }
+//
+//  ngAfterViewChecked(): void {
+//    if (this.node.changing) {
+//      this.nodeTextInput.nativeElement.focus();
+//    }
+//  }
+//
+//  onNodeExtended(): void {
+//    this.nodeExtended.emit(this.node);
+//  }
+//
+//  getPadding(): String {
+//    return this.paddingPerLevel * this.level + 'px';
+//  }
+//
+//  onNodeSelected(): void {
+//    this.nodeSelected.emit(this.node);
+//  }
+//
+//  changePic(): void {
+//    let newPic = prompt("Change Pic for Open", "");
+//    if (newPic) {
+//      this.imgURLClose = newPic;
+//    }
+//    newPic = prompt("Change Pic for Close", "");
+//    if (newPic) {
+//      this.imgURLOpen = newPic;
+//    }
+//  }
+//
+//  editNode(): void {
+//    this.node.changing = true;
+//  }
+//
+//  addNode(): void {
+//    this.node.extended = true;
+//
+//    let node = {
+//      name: '',
+//      nr: this.model.getNewID(),
+//      parentNr: this.node.nr,
+//      extended: false,
+//      changing: true,
+//      selected: false,
+//      childSelected: false
+//    };
+//
+//    this.model.addNode(node);
+//  }
+//
+//  finishNodeChange(): void {
+//    this.nodeTextInput.nativeElement.blur();
+//    this.node.changing = false;
+//    if (this.nodeTextInput.nativeElement.value !== '') {
+//      this.node.name = this.nodeTextInput.nativeElement.value;
+//    } else if (this.node.name === '') {
+//      this.model.removeNode(this.node);
+//    }
+//  }
+//
+//  removeNode(): void {
+//    this.model.removeNode(this.node);
+//  }
+//}
 //# sourceMappingURL=ca-tree-node.component.js.map
