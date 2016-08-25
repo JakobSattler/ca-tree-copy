@@ -1,0 +1,67 @@
+<div *ngIf="node" [style.padding-left]="getPadding()">
+  <span class=" hvr-sweep-to-right " style="color:#00A2E8;padding: 5px;float:auto; width:80%;">
+      <span (click)="onNodeExtended()" style="padding-top: 6px"
+            [class]="model.isNodeLeaf(node) ? 'glyphicon glyphicon-minus grow' :
+            node.extended ? 'glyphicon glyphicon-menu-down grow' : 'glyphicon glyphicon-menu-right grow'">
+      </span>
+      <div class="control-group" style="padding-bottom: 4px">
+        <label class="control control--checkbox">
+		          <input type="checkbox" (click)="onNodeSelected()"
+                     [(ngModel)]="node.selected"/>
+		          <div class="control__indicator"></div>
+	      </label>
+        </div>
+       <div class="control-group" style="padding-bottom: 4px">
+	      <label class="control control--checkbox" [style.visibility]="model.isNodeLeaf(node) ? 'hidden' : ''">
+		          <input type="checkbox" [(ngModel)]="node.childSelected" disabled/>
+		          <div class="control__indicator"></div>
+	      </label>
+        </div>
+    <span>
+      <img style="padding-bottom: 5px" *ngIf="node.extended" src="{{imgURLOpen}}" width='20' height='25'>
+      <img style="padding-bottom: 5px" *ngIf="!node.extended" src="{{imgURLClose}}" width='20' height='25'>
+     </span>
+      <a *ngIf="!node.changing"
+         href="#"
+         [innerHTML]="node.name"
+         onclick="return false"
+         #nodeText>
+      </a>
+      <input type="text"
+             [hidden]="!node.changing"
+             [value]="node.name"
+             style="color:black;"
+             (blur)="finishNodeChange()" #nodeTextInput/>
+    <span class="btn-group">
+      <span class="glyphicon glyphicon-triangle-bottom dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+      </span>&nbsp;&nbsp;&nbsp;&nbsp;
+      <ul class="dropdown-menu" style="position: absolute;     margin-left: 20px; margin-top: -20px;">
+        <li (click)="removeNode()">
+          <a>Eintrag löschen</a>
+        </li>
+        <li (click)="editNode()">
+          <a>Eintrag ändern</a>
+        </li>
+        <li (click)="addNode()">
+          <a>Eintrag hinzufügen</a>
+        </li>
+        <li (click)="changePic()">
+          <a>Symbol ändern</a>
+        </li>
+      </ul>
+    </span>
+  </span>
+</div>
+
+<template [ngIf]="node.extended">
+  <co-tree-node *ngFor="let res of model.resources | nodefilter : 'parentNr' : node.nr"
+                [node]="res"
+                [level]="level + 1"
+                [model]="model"
+                (nodeSelected)="caTreeComponent.onNodeSelected($event)"
+                (nodeExtended)="caTreeComponent.onNodeExtended($event)">
+  </co-tree-node>
+</template>
