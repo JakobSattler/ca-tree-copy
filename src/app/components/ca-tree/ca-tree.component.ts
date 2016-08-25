@@ -32,9 +32,9 @@ import {CaTreeMvcService} from '../../services/co-resources-service/ca-tree-mvc-
 export class CaTreeComponent implements OnInit {
   model: CaTreeMvcModel;
 
-  restUri: string = './organisations_flat.json';
+  restUri: string = './test.xml';
   //tableModelBuilder: CaTableMvcModelBuilder<CoContentDto> = new CaTableMvcModelBuilder<CoContentDto>();
-  //localModel: CaTableMvcModel;
+  localModel: CaTreeMvcModel;
 
   constructor(private _caResourcesService: CaTreeMvcService<CoContentDto>) {
   }
@@ -44,8 +44,11 @@ export class CaTreeComponent implements OnInit {
     coLink._rel = CoRelType.self;
     coLink._href = this.restUri;
     let caUri = new CaUri(coLink);
+    this.model = new CaTreeMvcModel();
     this._caResourcesService.init(caUri).subscribe((resources: CoResources<CoContentDto>) => {
-      console.log(resources)
+      console.log(resources);
+      this.model.resources.resource = resources.resource;
+      console.log(this.model.resources.resource);
     });
 
     return null;

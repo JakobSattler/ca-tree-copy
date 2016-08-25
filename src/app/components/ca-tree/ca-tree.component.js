@@ -7,6 +7,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 var core_1 = require('@angular/core');
 var ca_tree_service_1 = require('../../services/ca-tree.service');
+//import {CaTreeNodeComponent} from './ca-tree-node/ca-tree-node.component';
+var ca_tree_mvc_model_1 = require('../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc-model');
 var model_1 = require('../../dto/at/campusonline/core/lib/model/codata/annotation/link/model');
 var co_data_model_1 = require('../../services/co-data/co-data.model');
 var ca_data_service_1 = require('../../services/co-data/ca-data.service');
@@ -15,19 +17,21 @@ var ca_access_token_service_1 = require('../../services/ca-access-token.service'
 var ca_tree_mvc_service_1 = require('../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc.service');
 //import * as _ from 'lodash';
 var CaTreeComponent = (function () {
-    //tableModelBuilder: CaTableMvcModelBuilder<CoContentDto> = new CaTableMvcModelBuilder<CoContentDto>();
-    //localModel: CaTableMvcModel;
     function CaTreeComponent(_caResourcesService) {
         this._caResourcesService = _caResourcesService;
-        this.restUri = './organisations_flat.json';
+        this.restUri = './test.xml';
     }
     CaTreeComponent.prototype.ngOnInit = function () {
+        var _this = this;
         var coLink = new co_data_model_1.CaLink();
         coLink._rel = model_1.CoRelType.self;
         coLink._href = this.restUri;
         var caUri = new ca_data_service_1.CaUri(coLink);
+        this.model = new ca_tree_mvc_model_1.CaTreeMvcModel();
         this._caResourcesService.init(caUri).subscribe(function (resources) {
             console.log(resources);
+            _this.model.resources.resource = resources.resource;
+            console.log(_this.model.resources.resource);
         });
         return null;
     };
