@@ -50,8 +50,13 @@
         <li (click)="addNode()">
           <a>Eintrag hinzufügen</a>
         </li>
-        <li (click)="changePic()">
-          <a>Symbol ändern</a>
+       <li (click)="changePic()">
+          <a>
+           <span>
+             <input type="file" name="file" id="file" class="inputfile"/>
+             <label for="file">Symbol ändern</label>
+           </span>
+            </a>
         </li>
       </ul>
     </span>
