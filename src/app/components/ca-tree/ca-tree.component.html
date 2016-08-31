@@ -1,11 +1,20 @@
-
 <!--<hr>-->
 <!--<template [ngIf]="model.resources">-->
-    <!--<co-tree-node *ngFor="let res of model.resources | nodefilter: 'parentNr' : ''"-->
-                  <!--(nodeSelected)="onNodeSelected($event)"-->
-                  <!--(nodeExtended)="onNodeExtended($event)"-->
-                  <!--[node]="res"-->
-                  <!--[level]="0"-->
-                  <!--[model]="model">-->
-    <!--</co-tree-node>-->
+<!--<co-tree-node *ngFor="let res of model.resources | nodefilter: 'parentNr' : ''"-->
+<!--(nodeSelected)="onNodeSelected($event)"-->
+<!--(nodeExtended)="onNodeExtended($event)"-->
+<!--[node]="res"-->
+<!--[level]="0"-->
+<!--[model]="model">-->
+<!--</co-tree-node>-->
 <!--</template>-->
+<template [ngIf]="model.resources.resource">
+  <!--<p *ngFor="let res of model.resources.resource | nodefilter : 'parentNr' : ''">{{res.name}}</p><br>-->
+  <ca-tree-node *ngFor="let res of model.resources.resource | nodeChildFilter : ''"
+                [node]="res.content"
+                [model]="model"
+                [level]="0"
+                (nodeExtended)="onNodeExtended($event)"
+                (nodeSelected)="onNodeSelected($event)">
+  </ca-tree-node>
+</template>

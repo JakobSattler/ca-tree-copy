@@ -4,7 +4,7 @@ import {CoContentDto, CoMetaDto} from '../../../dto/at/campusonline/core/lib/mod
 import {CoResources} from '../../../dto/at/campusonline/core/lib/codata/api/resources/dto/model';
 import {CaBaseMvcModel} from '../ca-base-mvc.model';
 
-export interface BasicTreeNode {
+export interface BasicTreeNode extends CoContentDto {
   name: String;
   nr: number;
   parentNr: number;
@@ -35,9 +35,111 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
     //} else {
     //  return null;
     //}
-    return null;
+    let result = this.resources.resource.map(function (r) {
+      return r.content;
+    }).filter(res => (res as BasicTreeNode).nr === nr);
+
+    if (result.length === 1) {
+      return result[0] as BasicTreeNode;
+    } else {
+      return null;
+    }
   }
 
+  public isNodeLeaf(node: BasicTreeNode): boolean {
+    return this.resources.resource.filter(res => (res.content as BasicTreeNode).parentNr === node.nr).length === 0;
+  }
+
+  public checkChildren(node: SelectableTreeNode): void {
+    let selected: boolean = node.selected;
+
+    //Pre-order through node-numbers
+    let nodes: Array<SelectableTreeNode> = new Array<SelectableTreeNode>();
+    nodes.push(node);
+
+    while (nodes.length > 0) {
+      node = nodes.pop();
+
+      node.selected = selected;
+      this.checkParents(node as SelectableTreeNode);
+      let children = this.resources.resource.map(function (r) {
+        return r.content;
+      }).filter(res => (res as BasicTreeNode).parentNr === node.nr);
+      for (let child of children) {
+        nodes.push(child as SelectableTreeNode);
+      }
+    }
+  }
+
+  public checkParents(node: SelectableTreeNode): void {
+    let parentNr = node.nr;
+
+    node.childSelected = !node.childSelected;
+    while (parentNr) {
+      let parentNode: SelectableTreeNode = this.getNode(parentNr) as SelectableTreeNode;
+      if (parentNode != null) {
+        if (node.selected && !parentNode.childSelected) {
+          parentNode.childSelected = true;
+        } else if (!node.selected && !(this.areChildrenSelected(parentNode))) {
+          parentNode.childSelected = false;
+        }
+        if (!node.selected) {
+          parentNode.selected = false;
+        } else if (this._allChildrenSelected(parentNode)) {
+          parentNode.selected = true;
+        }
+        parentNr = parentNode.parentNr;
+      } else {
+        parentNr = null;
+      }
+    }
+  }
+
+  private _allChildrenSelected(node: SelectableTreeNode): boolean {
+    for (let n of this.resources.resource.map(function (r) {
+      return r.content;
+    }).filter(res => (res as BasicTreeNode).parentNr === node.nr) as SelectableTreeNode[]) {
+      if (!n.selected) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  public areChildrenSelected(node: SelectableTreeNode): boolean {
+    if (node === null) {
+      return;
+    }
+    //Pre-order through node-numbers
+    let nodes: Array<SelectableTreeNode> = new Array<SelectableTreeNode>();
+    nodes.push(node);
+
+    while (nodes.length > 0) {
+      node = nodes.pop();
+
+      let children = this.resources.resource.map(function (r) {
+        return r.content;
+      }).filter(res => (res as BasicTreeNode).parentNr === node.nr);
+
+      for (let child of children) {
+        if ((child as SelectableTreeNode).selected) {
+          return true;
+        }
+        nodes.push(child as SelectableTreeNode);
+      }
+    }
+    return false;
+  }
+
+  public containsNode(node: BasicTreeNode): boolean {
+    for (let res of this.resources.resource) {
+      if ((res.content as BasicTreeNode).nr === node.nr) {
+        return true;
+      }
+    }
+    return false;
+  }
+}
 //  public removeNode(node: BasicTreeNode): void {
 //    //Pre-order through node-numbers
 //    let nrs: Array<number> = new Array<number>();
@@ -65,9 +167,7 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
 //    return false;
 //  }
 //
-//  public isNodeLeaf(node: BasicTreeNode): boolean {
-//    return this.resources.filter(res => res.parentNr === node.nr).length === 0;
-//  }
+
 //
 //  public addNode(res: BasicTreeNode): void {
 //    this.resources.push(res);
@@ -155,16 +255,16 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
 //  }
 //}
 //
-//@Pipe({
-//  name: 'nodefilter',
-//  pure: false
-//})
-//@Injectable()
-//export class NodeFilter {
-//  transform(items: any[], field: string, value: string): any[] {
-//    if (!items) {
-//      return [];
-//    }
-//    return items.filter(it => it[field] === value);
-//  }
+@Pipe({
+  name: 'nodeChildFilter',
+  pure: false
+})
+@Injectable()
+export class NodeFilter {
+  transform(items: any[], value: string): any[] {
+    if (!items) {
+      return [];
+    }
+    return items.filter(it => it.content.parentNr === value);
+  }
 }

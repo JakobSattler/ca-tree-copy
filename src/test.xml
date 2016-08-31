@@ -1,1442 +1,1811 @@
-
-<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:conf="http://www.campusonline.at/xsd/meta/config/v1" xmlns:rest="http://www.campusonline.at/xsd/meta/rest/v2" xmlns:acc="http://www.campusonline.at/xsd/meta/access/v1" xmlns:mvc="http://www.campusonline.at/xsd/meta/mvc/v1" xmlns:exp="http://www.campusonline.at/xsd/meta/export/v1" xmlns:qu="http://www.campusonline.at/xsd/meta/query/v2">
-<link rel="create" href="/eg.tutorial.tasks.simple/v1/egtasks" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto"/>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10027" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10027"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10027" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10027"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10027</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>XXXXXX</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10059" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10059"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10059" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10059"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10059</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10066" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10066"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10066" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10066"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10066</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10062" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10062"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10062" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10062"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10062</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10151" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10151" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10151" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10151</id>
-<title>XXX</title>
-<dueDate>2017-06-06T02:00:00+02:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10124" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10124"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10124" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10124"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10124</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10138" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10138" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10138" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10138</id>
-<title>sdfsdf</title>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10139" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10139" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10139" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10139</id>
-<title>sdfsd</title>
-<dueDate>2016-07-15T21:11:09+02:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10152" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10152" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10152" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10152</id>
-<title>sdcsd111</title>
-<dueDate>2019-01-06T01:00:00+01:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10153" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10153" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10153" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10153</id>
-<title>xxxyyyyyyyyy</title>
-<dueDate>2019-01-06T01:00:00+01:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10235" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10235"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10235" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10235"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10235</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10273" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10273" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10273" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10273</id>
-<title>EgSubTaskRestAdapterIT-1 test data</title>
-<text>
-EgSubTaskRestAdapterIT-1 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-25T15:05:26+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10415" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10415"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10415" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10415"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10415" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10415"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10415</id>
-<title>EgTaskRestAdapterIT-1 test data</title>
-<text>
-EgTaskRestAdapterIT-1 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-28T15:10:38+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10274" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10274" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10274" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10274</id>
-<title>EgSubTaskRestAdapterIT-2 test data</title>
-<text>
-EgSubTaskRestAdapterIT-2 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-25T15:05:26+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10416" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10416"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10416" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10416"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10416" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10416"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10416</id>
-<title>EgTaskRestAdapterIT-2 test data</title>
-<text>
-EgTaskRestAdapterIT-2 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-28T15:10:40+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10420" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10420" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10420" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10420</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10418" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10418" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10418" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10418</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10419" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10419" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10419" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10419</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10421" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10421" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10421" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10421</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10433" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10433" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10433" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10433</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10434" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10434" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10434" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10434</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10435" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10435" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10435" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10435</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10436" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10436" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10436" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10436</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10437" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10437" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10437" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10437</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10438" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10438" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10438" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10438</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10439" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10439" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10439" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10439</id>
-<title>jetlkwjer</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10440" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10440" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10440" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10440</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10441" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10441" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10441" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10441</id>
-<title>jetlkwjer</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10442" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10442" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10442" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10442</id>
-<title>jetlkwjer</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10443" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10443" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10443" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10443</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10444" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10444" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10444" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10444</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10445" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10445" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10445" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10445</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10471" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10471"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10471" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10471"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10471</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10596" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10596"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10596" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10596"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10596</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10620" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10620" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10620" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10620</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10022" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10022"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10022" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10022"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10022</id>
-<title>Title C</title>
-<text>TextC</text>
-<dueDate>2016-07-07T12:32:34+02:00</dueDate>
-<done>true</done>
-<color>blue</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10030" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10030"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10030" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10030"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10030</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>XXXXXX</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10031" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10031"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10031" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10031"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10031</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10037" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10037"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10037" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10037"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10037</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10136" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10136" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10136" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10136</id>
-<title>Retro</title>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10041" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10041"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10041" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10041"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10041</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10044" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10044"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10044" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10044"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10044</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10137" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10137" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10137" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10137</id>
-<title>Blasd</title>
-<text>c,d,dd</text>
-<dueDate>2016-07-15T11:02:17+02:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10391" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10391" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10391" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10391</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10393" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10393" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10393" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10393</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10392" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10392" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10392" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10392</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10394" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10394" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10394" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10394</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10395" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10395" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10395" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10395</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10396" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10396" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10396" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10396</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10397" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10397" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10397" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10397</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10398" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10398" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10398" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10398</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10399" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10399" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10399" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10399</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10400" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10400" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10400" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10400</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10401" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10401" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10401" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10401</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10402" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10402" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10402" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10402</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10403" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10403" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10403" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10403</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10404" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10404" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10404" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10404</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10405" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10405" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10405" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10405</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10406" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10406" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10406" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10406</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10407" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10407" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10407" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10407</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10408" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10408" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10408" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10408</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10409" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10409" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10409" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10409</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10410" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10410" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10410" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10410</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10411" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10411" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10411" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10411</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10422" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10422" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10422" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10422</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10498" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10498"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10498" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10498"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10498</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10423" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10423" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10423" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10423</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10466" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10466"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10466" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10466"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10466</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10527" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10527"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10527" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10527"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10527</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10541" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10541"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10541" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10541"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10541</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10615" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10615" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10615" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10615</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10614" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10614" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10614" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10614</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10616" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10616" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10616" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10616</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10617" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10617" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10617" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10617</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10618" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10618" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10618" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10618</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10619" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10619" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10619" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10619</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10020" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10020"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10020" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10020"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10020</id>
-<title>Title A</title>
-<text>TextA</text>
-<dueDate>2016-07-07T12:32:34+02:00</dueDate>
-<done>true</done>
-<color>blue</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10032" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10032"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10032" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10032"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10032</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10042" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10042"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10042" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10042"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10042</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10056" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10056"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10056" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10056"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10056</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10058" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10058"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10058" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10058"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10058</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10145" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10145" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10145" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10145</id>
-<title>tttttttttt</title>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10150" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10150" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10150" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10150</id>
-<title>hello10</title>
-<dueDate>2016-06-02T02:00:00+02:00</dueDate>
-<done>true</done>
-<color>AAAAAA</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10376" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10376" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10376" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10376</id>
-<title>ResourcesBuilderEgTaskRestTest-1 test data</title>
-<text>
-ResourcesBuilderEgTaskRestTest-1 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-28T10:59:43+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10569" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10569"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10569" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10569"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10569</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10377" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10377" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10377" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10377</id>
-<title>ResourcesBuilderEgTaskRestTest-2 test data</title>
-<text>
-ResourcesBuilderEgTaskRestTest-2 test data text (added via rest-test)
-</text>
-<dueDate>2016-07-28T10:59:43+02:00</dueDate>
-<done>true</done>
-<color>FF00FF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10386" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10386" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10386" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10386</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10387" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10387" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10387" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10387</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10388" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10388" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10388" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10388</id>
-<title>RestTest</title>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10023" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10023"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10023" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10023"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10023</id>
-<title>Title D</title>
-<text>TextD</text>
-<dueDate>2016-07-07T12:32:34+02:00</dueDate>
-<done>true</done>
-<color>blue</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/-201606210001" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210001" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210001" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>-201606210001</id>
-<title>1 Es gibt immer was zu tun</title>
-<text>Ich sollte mal dieses Liquibase Script aufräumen</text>
-<dueDate>2016-06-22T14:18:52+02:00</dueDate>
-<done>true</done>
-<color>FF0000</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/-201606210002" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210002" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210002" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>-201606210002</id>
-<title>Shopping</title>
-<text>
-Hofer, Billa, Inter-Spar'; drop table tug_new.personen;
-</text>
-<dueDate>2016-07-07T14:58:27+02:00</dueDate>
-<done>true</done>
-<color>00FF00</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10061" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10061"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10061" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10061"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10061</id>
-<title>nix da</title>
-<text>arb testest</text>
-<dueDate>2016-07-07T00:00:00+02:00</dueDate>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10043" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10043"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10043" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10043"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10043</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10045" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10045"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10045" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10045"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10045</id>
-<title>lol2 tst</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10582" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10582"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10582" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10582"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10582</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10349" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10349"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10349" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10349"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10349</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10623" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10623" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10623" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10623</id>
-<title>RestTest</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10622" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
-<link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10622" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
-<link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10622" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10622</id>
-<title>updateSuccessful</title>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
-<resource>
-<link rel="related" summary="Hier geht es zu den Subtasks" href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10064" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10064"/>
-<link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10064" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10064"/>
-<content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
-<SimpleEgTaskDto>
-<id>10064</id>
-<title>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</title>
-<text>
-at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
-</text>
-<done>true</done>
-<color>FFFFFF</color>
-</SimpleEgTaskDto>
-</content>
-</resource>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:conf="http://www.campusonline.at/xsd/meta/config/v1"
+                  xmlns:rest="http://www.campusonline.at/xsd/meta/rest/v2"
+                  xmlns:acc="http://www.campusonline.at/xsd/meta/access/v1"
+                  xmlns:mvc="http://www.campusonline.at/xsd/meta/mvc/v1"
+                  xmlns:exp="http://www.campusonline.at/xsd/meta/export/v1"
+                  xmlns:qu="http://www.campusonline.at/xsd/meta/query/v2">
+  <link rel="create" href="/eg.tutorial.tasks.simple/v1/egtasks" type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto"/>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10027"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10027"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10027"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10027"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10027</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>XXXXXX</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10059"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10059"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10059"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10059"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10059</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10066"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10066"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10066"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10066"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10066</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10062"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10062"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10062"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10062"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10062</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10151"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10151"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10151"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10151"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10151</id>
+        <title>XXX</title>
+        <dueDate>2017-06-06T02:00:00+02:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10124"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10124"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10124"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10124"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10124</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10138"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10138"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10138"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10138"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10138</id>
+        <title>sdfsdf</title>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10139"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10139"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10139"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10139"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10139</id>
+        <title>sdfsd</title>
+        <dueDate>2016-07-15T21:11:09+02:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10152"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10152"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10152"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10152"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10152</id>
+        <title>sdcsd111</title>
+        <dueDate>2019-01-06T01:00:00+01:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10153"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10153"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10153"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10153"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10153</id>
+        <title>xxxyyyyyyyyy</title>
+        <dueDate>2019-01-06T01:00:00+01:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10235"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10235"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10235"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10235"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10235</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10273"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10273"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10273"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10273"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10273</id>
+        <title>EgSubTaskRestAdapterIT-1 test data</title>
+        <text>
+          EgSubTaskRestAdapterIT-1 test data text (added via rest-test)
+        </text>
+        <dueDate>2016-07-25T15:05:26+02:00</dueDate>
+        <done>true</done>
+        <color>FF00FF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10274"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10274"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10274"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10274"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10274</id>
+        <title>EgSubTaskRestAdapterIT-2 test data</title>
+        <text>
+          EgSubTaskRestAdapterIT-2 test data text (added via rest-test)
+        </text>
+        <dueDate>2016-07-25T15:05:26+02:00</dueDate>
+        <done>true</done>
+        <color>FF00FF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10420"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10420"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10420"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10420"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10420</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10418"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10418"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10418"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10418"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10418</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10419"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10419"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10419"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10419"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10419</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10421"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10421"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10421"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10421"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10421</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10433"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10433"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10433"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10433"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10433</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10434"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10434"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10434"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10434"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10434</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10435"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10435"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10435"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10435"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10435</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10436"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10436"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10436"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10436"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10436</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10437"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10437"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10437"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10437"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10437</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10438"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10438"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10438"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10438"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10438</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10439"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10439"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10439"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10439"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10439</id>
+        <title>jetlkwjer</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10440"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10440"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10440"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10440"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10440</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10441"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10441"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10441"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10441"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10441</id>
+        <title>jetlkwjer</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10442"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10442"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10442"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10442"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10442</id>
+        <title>jetlkwjer</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10443"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10443"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10443"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10443"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10443</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10444"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10444"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10444"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10444"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10444</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10445"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10445"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10445"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10445"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10445</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10471"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10471"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10471"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10471"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10471</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10596"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10596"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10596"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10596"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10596</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10620"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10620"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10620"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10620"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10620</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10022"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10022"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10022"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10022"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10022</id>
+        <title>Title C</title>
+        <text>TextC</text>
+        <dueDate>2016-07-07T12:32:34+02:00</dueDate>
+        <done>true</done>
+        <color>blue</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10030"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10030"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10030"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10030"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10030</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>XXXXXX</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10031"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10031"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10031"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10031"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10031</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10037"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10037"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10037"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10037"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10037</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10136"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10136"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10136"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10136"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10136</id>
+        <title>Retro</title>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10041"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10041"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10041"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10041"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10041</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10044"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10044"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10044"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10044"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10044</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10137"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10137"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10137"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10137"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10137</id>
+        <title>Blasd</title>
+        <text>c,d,dd</text>
+        <dueDate>2016-07-15T11:02:17+02:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10391"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10391"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10391"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10391"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10391</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10393"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10393"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10393"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10393"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10393</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10392"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10392"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10392"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10392"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10392</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10394"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10394"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10394"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10394"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10394</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10395"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10395"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10395"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10395"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10395</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10396"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10396"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10396"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10396"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10396</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10397"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10397"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10397"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10397"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10397</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10398"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10398"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10398"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10398"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10398</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10399"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10399"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10399"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10399"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10399</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10400"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10400"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10400"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10400"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10400</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10401"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10401"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10401"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10401"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10401</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10402"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10402"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10402"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10402"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10402</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10403"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10403"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10403"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10403"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10403</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10404"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10404"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10404"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10404"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10404</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10405"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10405"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10405"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10405"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10405</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10406"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10406"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10406"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10406"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10406</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10407"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10407"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10407"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10407"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10407</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10408"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10408"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10408"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10408"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10408</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10409"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10409"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10409"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10409"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10409</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10410"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10410"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10410"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10410"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10410</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10411"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10411"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10411"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10411"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10411</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10422"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10422"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10422"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10422"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10422</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10498"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10498"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10498"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10498"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10498</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10423"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10423"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10423"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10423"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10423</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10466"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10466"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10466"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10466"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10466</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10527"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10527"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10527"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10527"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10527</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10541"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10541"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10541"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10541"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10541</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10615"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10615"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10615"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10615"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10615</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10614"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10614"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10614"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10614"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10614</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10616"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10616"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10616"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10616"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10616</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10617"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10617"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10617"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10617"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10617</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10618"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10618"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10618"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10618"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10618</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10619"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10619"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10619"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10619"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10619</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10020"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10020"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10020"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10020"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10020</id>
+        <title>Title A</title>
+        <text>TextA</text>
+        <dueDate>2016-07-07T12:32:34+02:00</dueDate>
+        <done>true</done>
+        <color>blue</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10032"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10032"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10032"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10032"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10032</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10042"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10042"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10042"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10042"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10042</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10056"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10056"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10056"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10056"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10056</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10058"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10058"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10058"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10058"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10058</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10145"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10145"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10145"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10145"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10145</id>
+        <title>tttttttttt</title>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10150"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10150"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10150"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10150"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10150</id>
+        <title>hello10</title>
+        <dueDate>2016-06-02T02:00:00+02:00</dueDate>
+        <done>true</done>
+        <color>AAAAAA</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10376"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10376"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10376"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10376"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10376</id>
+        <title>ResourcesBuilderEgTaskRestTest-1 test data</title>
+        <text>
+          ResourcesBuilderEgTaskRestTest-1 test data text (added via rest-test)
+        </text>
+        <dueDate>2016-07-28T10:59:43+02:00</dueDate>
+        <done>true</done>
+        <color>FF00FF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10569"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10569"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10569"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10569"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10569</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10377"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10377"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10377"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10377"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10377</id>
+        <title>ResourcesBuilderEgTaskRestTest-2 test data</title>
+        <text>
+          ResourcesBuilderEgTaskRestTest-2 test data text (added via rest-test)
+        </text>
+        <dueDate>2016-07-28T10:59:43+02:00</dueDate>
+        <done>true</done>
+        <color>FF00FF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10386"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10386"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10386"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10386"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10386</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10387"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10387"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10387"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10387"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10387</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10388"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10388"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10388"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10388"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10388</id>
+        <title>RestTest</title>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10023"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10023"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10023"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10023"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10023</id>
+        <title>Title D</title>
+        <text>TextD</text>
+        <dueDate>2016-07-07T12:32:34+02:00</dueDate>
+        <done>true</done>
+        <color>blue</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/-201606210001"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210001"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210001"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210001"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>-201606210001</id>
+        <title>1 Es gibt immer was zu tun</title>
+        <text>Ich sollte mal dieses Liquibase Script aufräumen</text>
+        <dueDate>2016-06-22T14:18:52+02:00</dueDate>
+        <done>true</done>
+        <color>FF0000</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/-201606210002"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210002"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/-201606210002"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="-201606210002"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>-201606210002</id>
+        <title>Shopping</title>
+        <text>
+          Hofer, Billa, Inter-Spar'; drop table tug_new.personen;
+        </text>
+        <dueDate>2016-07-07T14:58:27+02:00</dueDate>
+        <done>true</done>
+        <color>00FF00</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10061"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10061"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10061"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10061"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10061</id>
+        <title>nix da</title>
+        <text>arb testest</text>
+        <dueDate>2016-07-07T00:00:00+02:00</dueDate>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10043"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10043"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10043"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10043"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10043</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10045"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10045"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10045"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10045"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10045</id>
+        <title>lol2 tst</title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10582"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10582"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10582"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10582"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10582</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10349"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10349"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10349"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10349"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10349</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10623"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10623"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10623"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10623"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10623</id>
+        <title>RestTest</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10622"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10622"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10622"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10622"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10622</id>
+        <title>updateSuccessful</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10064"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10064"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10064"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10064"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10064</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10122"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10122"/>
+    <link rel="self" summary="Ansicht" href="/eg.tutorial.tasks.simple/v1/egtasks/10122"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10122"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10122</id>
+        <title>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </title>
+        <text>
+          at.campusonline.itest.eg.tutorial.tasks.sprint0.control.repository.EgTaskRepositoryIT$Proxy$_$$_WeldSubclass
+        </text>
+        <done>true</done>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
+  <resource>
+    <link rel="related" summary="Hier geht es zu den Subtasks"
+          href="/eg.tutorial.tasks.simple/v1/egsubtasks/bytask/10624"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10624"/>
+    <link rel="edit" summary="Bearbeiten" href="/eg.tutorial.tasks.simple/v1/egtasks/10624"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10624"/>
+    <link rel="delete" summary="Löschen" href="/eg.tutorial.tasks.simple/v1/egtasks/10624"
+          type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto" key="10624"/>
+    <content type="model-eg.tutorial.tasks.simple.SimpleEgTaskDto">
+      <SimpleEgTaskDto>
+        <id>10624</id>
+        <title>RestTest</title>
+        <color>FFFFFF</color>
+      </SimpleEgTaskDto>
+    </content>
+  </resource>
 </codata:resources>
