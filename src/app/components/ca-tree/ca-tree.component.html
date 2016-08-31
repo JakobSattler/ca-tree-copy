@@ -9,7 +9,7 @@
 <!--</co-tree-node>-->
 <!--</template>-->
 <template [ngIf]="model.resources.resource">
-  <!--<p *ngFor="let res of model.resources.resource | nodefilter : 'parentNr' : ''">{{res.name}}</p><br>-->
+  <!--<p *ngFor="let res of model.resources.node | nodefilter : 'parentNr' : ''">{{res.name}}</p><br>-->
   <ca-tree-node *ngFor="let res of model.resources.resource | nodeChildFilter : ''"
                 [node]="res.content"
                 [model]="model"

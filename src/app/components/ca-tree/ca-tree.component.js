@@ -22,7 +22,7 @@ var CaTreeComponent = (function () {
     function CaTreeComponent(_caResourcesService, _caTreeService) {
         this._caResourcesService = _caResourcesService;
         this._caTreeService = _caTreeService;
-        this.restUri = 'https://api.myjson.com/bins/31ync';
+        this.restUri = './organisations_flat_copy.json';
     }
     CaTreeComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -45,20 +45,20 @@ var CaTreeComponent = (function () {
                 var d1 = _c[_b];
                 _loop_1(d1);
             }
-            //this.model.resources.resource = resources.resource;
+            //this.model.resources.node = resources.node;
             //console.log(resources);
-            //this.model.resources.resource = resources.resource;
-            //let asdf: any[] = resources.resource[0].content;
-            //console.log(resources.resource[0].content);
-            //console.log(typeof resources.resource);
-            //console.log(resources.resource.length);
-            //for(let r of resources.resource){
+            //this.model.resources.node = resources.node;
+            //let asdf: any[] = resources.node[0].content;
+            //console.log(resources.node[0].content);
+            //console.log(typeof resources.node);
+            //console.log(resources.node.length);
+            //for(let r of resources.node){
             //  console.log(r);
             //}
-            //console.log(resources.resource);
-            //this.model.resources.resource = resources.resource;
-            //console.log(this.model.resources.resource);
-            //for (let c of this.model.resources.resource) {
+            //console.log(resources.node);
+            //this.model.resources.node = resources.node;
+            //console.log(this.model.resources.node);
+            //for (let c of this.model.resources.node) {
             //  console.log(c);
             //}
         });

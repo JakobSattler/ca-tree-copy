@@ -46,7 +46,7 @@ var CaDataModel = (function () {
      * @param restResource
      * @returns {Observable<R>}
      */
-    //get(api:string, resource:string):Observable<CaResponse<T>> ;
+    //get(api:string, node:string):Observable<CaResponse<T>> ;
     CaDataModel.prototype.get = function (link, resource) {
         var _this = this;
         return this.ds.get(new ca_data_service_1.CaUri(link, resource)).map(function (resp) { return _this.map(resp); });
@@ -77,7 +77,7 @@ var CaDataModel = (function () {
         this.info = new co_resources_info_class_1.CoResourcesInfo(resp.resources);
         //console.log('RESPONSE: %o', resp);
         //this.response = resp;
-        //this.resources = resp['resource'];
+        //this.resources = resp['node'];
         //console.log(this.resources);
         //this.info = new CoResourcesInfo<T>(resp.resources);
         //return this.response;

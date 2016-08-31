@@ -52,7 +52,7 @@ export class CaDataModel<T extends CoContentDto> {
      * @param restResource
      * @returns {Observable<R>}
      */
-    //get(api:string, resource:string):Observable<CaResponse<T>> ;
+    //get(api:string, node:string):Observable<CaResponse<T>> ;
 
     get(link:CoLink, resource:string):Observable<CaResponse<T>> {
         return this.ds.get(new CaUri(link, resource)).map((resp:CaResponse<T>) => this.map(resp));
@@ -85,7 +85,7 @@ export class CaDataModel<T extends CoContentDto> {
 
         //console.log('RESPONSE: %o', resp);
         //this.response = resp;
-        //this.resources = resp['resource'];
+        //this.resources = resp['node'];
         //console.log(this.resources);
         //this.info = new CoResourcesInfo<T>(resp.resources);
         //return this.response;

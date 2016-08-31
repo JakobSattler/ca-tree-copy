@@ -38,7 +38,7 @@ var CoResourcesInfo = (function () {
         }
         var keys = Object.keys(firstContent);
         if (keys.length !== 2) {
-            throw new TypeError('no valid codata content-resource');
+            throw new TypeError('no valid codata content-node');
         }
         //FIXME: this is not deterministic!!! -> maybe just using 'data' as contentRoot?
         return keys[1];

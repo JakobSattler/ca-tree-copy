@@ -35,7 +35,7 @@ import {CaTreeNodeComponent} from './ca-tree-node/ca-tree-node.component';
 export class CaTreeComponent implements OnInit {
   model: CaTreeMvcModel;
 
-  restUri: string = 'https://api.myjson.com/bins/31ync';
+  restUri: string = './organisations_flat_copy.json';
   caUri: CaUri;
   //tableModelBuilder: CaTableMvcModelBuilder<CoContentDto> = new CaTableMvcModelBuilder<CoContentDto>();
   localModel: CaTreeMvcModel;
@@ -59,20 +59,20 @@ export class CaTreeComponent implements OnInit {
           this.model.resources.resource.push(d2);
         }
       }
-      //this.model.resources.resource = resources.resource;
+      //this.model.resources.node = resources.node;
       //console.log(resources);
-      //this.model.resources.resource = resources.resource;
-      //let asdf: any[] = resources.resource[0].content;
-      //console.log(resources.resource[0].content);
-      //console.log(typeof resources.resource);
-      //console.log(resources.resource.length);
-      //for(let r of resources.resource){
+      //this.model.resources.node = resources.node;
+      //let asdf: any[] = resources.node[0].content;
+      //console.log(resources.node[0].content);
+      //console.log(typeof resources.node);
+      //console.log(resources.node.length);
+      //for(let r of resources.node){
       //  console.log(r);
       //}
-      //console.log(resources.resource);
-      //this.model.resources.resource = resources.resource;
-      //console.log(this.model.resources.resource);
-      //for (let c of this.model.resources.resource) {
+      //console.log(resources.node);
+      //this.model.resources.node = resources.node;
+      //console.log(this.model.resources.node);
+      //for (let c of this.model.resources.node) {
       //  console.log(c);
       //}
     });
