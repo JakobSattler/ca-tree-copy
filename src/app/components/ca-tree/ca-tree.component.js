@@ -19,20 +19,20 @@ var ca_tree_mvc_model_2 = require('../../services/co-resources-service/ca-tree-m
 var ca_tree_node_component_1 = require('./ca-tree-node/ca-tree-node.component');
 //import * as _ from 'lodash';
 var CaTreeComponent = (function () {
-    function CaTreeComponent(_caResourcesService, _caTreeService) {
-        this._caResourcesService = _caResourcesService;
+    function CaTreeComponent(_caTreeMvcService, _caTreeService) {
+        this._caTreeMvcService = _caTreeMvcService;
         this._caTreeService = _caTreeService;
         this.restUri = './organisations_flat_copy.json';
     }
     CaTreeComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this._caTreeService.caTreeComponent = this;
+        this._caTreeMvcService.caTreeComponent = this;
         var coLink = new co_data_model_1.CaLink();
         coLink._rel = model_1.CoRelType.self;
         coLink._href = this.restUri;
         this.caUri = new ca_data_service_1.CaUri(coLink);
         this.model = new ca_tree_mvc_model_1.CaTreeMvcModel();
-        this._caResourcesService.init(this.caUri).subscribe(function (resources) {
+        this._caTreeMvcService.init(this.caUri).subscribe(function (resources) {
             var _loop_1 = function(d1) {
                 _this.model.resources.resource.push(d1);
                 for (var _i = 0, _a = resources.resource.filter(function (res) { return res.content.parentNr
@@ -58,7 +58,7 @@ var CaTreeComponent = (function () {
     CaTreeComponent.prototype._loadChildren = function (node) {
         var _this = this;
         //load children + next level to load proper icon
-        this._caResourcesService.init(this.caUri).subscribe(function (resources) {
+        this._caTreeMvcService.init(this.caUri).subscribe(function (resources) {
             var _loop_2 = function(d1) {
                 if (!_this.model.containsNode(d1.content)) {
                     _this.model.resources.resource.push(d1);

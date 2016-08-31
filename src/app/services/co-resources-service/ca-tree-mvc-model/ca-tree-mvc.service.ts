@@ -7,9 +7,12 @@ import {CoContentDto} from '../../../dto/at/campusonline/core/lib/model/codata/m
 import {CoResources} from '../../../dto/at/campusonline/core/lib/codata/api/resources/dto/model';
 import {CaUri, CaDataService} from '../../co-data/ca-data.service';
 import {CaBaseMvcModel} from '../ca-base-mvc.model';
+import {CaTreeComponent} from '../../../components/ca-tree/ca-tree.component';
 
 @Injectable()
 export class CaTreeMvcService<T extends CoContentDto> extends CaResourcesService<T> {
+
+  caTreeComponent: CaTreeComponent;
 
   constructor(caDataService:CaDataService<T>) {
     super(caDataService);

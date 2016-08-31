@@ -46,18 +46,18 @@ export class CaTreeComponent implements OnInit {
   //tableModelBuilder: CaTableMvcModelBuilder<CoContentDto> = new CaTableMvcModelBuilder<CoContentDto>();
   localModel: CaTreeMvcModel;
 
-  constructor(private _caResourcesService: CaTreeMvcService<CoContentDto>, private _caTreeService: CaTreeService) {
+  constructor(private _caTreeMvcService: CaTreeMvcService<CoContentDto>, private _caTreeService: CaTreeService) {
   }
 
   ngOnInit(): void {
-    this._caTreeService.caTreeComponent = this;
+    this._caTreeMvcService.caTreeComponent = this;
 
     let coLink: CoLink = new CaLink();
     coLink._rel = CoRelType.self;
     coLink._href = this.restUri;
     this.caUri = new CaUri(coLink);
     this.model = new CaTreeMvcModel();
-    this._caResourcesService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
+    this._caTreeMvcService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
       for (let d1 of resources.resource.filter(res => !(res.content as BasicTreeNode).parentNr)) {
         this.model.resources.resource.push(d1);
         for (let d2 of resources.resource.filter(res => (res.content as BasicTreeNode).parentNr
@@ -80,7 +80,7 @@ export class CaTreeComponent implements OnInit {
 
   private _loadChildren(node: BasicTreeNode) {
     //load children + next level to load proper icon
-    this._caResourcesService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
+    this._caTreeMvcService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
         for (let d1 of resources.resource.filter(res => (res.content as BasicTreeNode).parentNr === node.nr)) {
           if (!this.model.containsNode(d1.content as BasicTreeNode)) {
             this.model.resources.resource.push(d1);

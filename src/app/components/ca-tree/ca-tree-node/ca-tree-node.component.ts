@@ -9,6 +9,8 @@ import {
   NodeFilter, EditableTreeNode
 } from '../../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc-model';
 import {CaTreeComponent} from '../ca-tree.component';
+import {CaTreeMvcService} from '../../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc.service';
+import {CoContentDto} from '../../../dto/at/campusonline/core/lib/model/codata/model';
 
 @Component({
   moduleId: module.id,
@@ -49,11 +51,11 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   public caTreeComponent: CaTreeComponent;
 
-  ngOnInit() {
-    this.caTreeComponent = this.caTreeService.caTreeComponent;
+  constructor(private _caTreeMvcService: CaTreeMvcService<CoContentDto>) {
   }
 
-  constructor(private caTreeService: CaTreeService) {
+  ngOnInit() {
+    this.caTreeComponent = this._caTreeMvcService.caTreeComponent;
   }
 
   ngAfterViewInit(): void {

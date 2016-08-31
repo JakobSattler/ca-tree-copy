@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require('@angular/core');
 var ca_tree_mvc_model_1 = require('../../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc-model');
 var CaTreeNodeComponent = (function () {
-    function CaTreeNodeComponent(caTreeService) {
-        this.caTreeService = caTreeService;
+    function CaTreeNodeComponent(_caTreeMvcService) {
+        this._caTreeMvcService = _caTreeMvcService;
         this.paddingPerLevel = 10;
         this.imgURLClose = 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-44945-128px.png';
         this.imgURLOpen = 'https://freeiconshop.com/files/edd/folder-open-solid.png';
@@ -17,7 +17,7 @@ var CaTreeNodeComponent = (function () {
         this.nodeExtended = new core_1.EventEmitter();
     }
     CaTreeNodeComponent.prototype.ngOnInit = function () {
-        this.caTreeComponent = this.caTreeService.caTreeComponent;
+        this.caTreeComponent = this._caTreeMvcService.caTreeComponent;
     };
     CaTreeNodeComponent.prototype.ngAfterViewInit = function () {
         console.log('afterViewInit');
