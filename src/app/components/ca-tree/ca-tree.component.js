@@ -45,37 +45,19 @@ var CaTreeComponent = (function () {
                 var d1 = _c[_b];
                 _loop_1(d1);
             }
-            //this.localModel.resources.node = resources.node;
-            //console.log(resources);
-            //this.localModel.resources.node = resources.node;
-            //let asdf: any[] = resources.node[0].content;
-            //console.log(resources.node[0].content);
-            //console.log(typeof resources.node);
-            //console.log(resources.node.length);
-            //for(let r of resources.node){
-            //  console.log(r);
-            //}
-            //console.log(resources.node);
-            //this.localModel.resources.node = resources.node;
-            //console.log(this.localModel.resources.node);
-            //for (let c of this.localModel.resources.node) {
-            //  console.log(c);
-            //}
         });
-        return null;
     };
     CaTreeComponent.prototype.onNodeSelected = function (node) {
         node.selected = !node.selected;
         this.model.checkChildren(node);
     };
     CaTreeComponent.prototype.onNodeExtended = function (node) {
-        this.loadChildren(node);
+        this._loadChildren(node);
         node.extended = !node.extended;
     };
-    CaTreeComponent.prototype.loadChildren = function (node) {
+    CaTreeComponent.prototype._loadChildren = function (node) {
         var _this = this;
         //load children + next level to load proper icon
-        console.log("loadChildren");
         this._caResourcesService.init(this.caUri).subscribe(function (resources) {
             var _loop_2 = function(d1) {
                 if (!_this.model.containsNode(d1.content)) {
@@ -94,6 +76,12 @@ var CaTreeComponent = (function () {
             }
         });
     };
+    __decorate([
+        core_1.Input()
+    ], CaTreeComponent.prototype, "selectable");
+    __decorate([
+        core_1.Input()
+    ], CaTreeComponent.prototype, "editable");
     CaTreeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

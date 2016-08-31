@@ -27,7 +27,7 @@ var CaTreeNodeComponent = (function () {
         }
     };
     CaTreeNodeComponent.prototype.ngAfterViewChecked = function () {
-        if (this.node.changing) {
+        if (this.caTreeComponent.editable && this.node.changing) {
             this.nodeTextInput.nativeElement.focus();
         }
     };

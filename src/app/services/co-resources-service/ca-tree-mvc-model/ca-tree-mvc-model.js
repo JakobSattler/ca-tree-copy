@@ -23,12 +23,6 @@ var CaTreeMvcModel = (function (_super) {
         this.resources.resource = new Array();
     }
     CaTreeMvcModel.prototype.getNode = function (nr) {
-        //let result = this.resources.resource.filter(res => res.nr === nr);
-        //if (result.length === 1) {
-        //  return result[0];
-        //} else {
-        //  return null;
-        //}
         var result = this.resources.resource.map(function (r) {
             return r.content;
         }).filter(function (res) { return res.nr === nr; });
@@ -61,15 +55,15 @@ var CaTreeMvcModel = (function (_super) {
         }
     };
     CaTreeMvcModel.prototype.checkParents = function (node) {
-        var parentNr = node.nr;
+        var nr = node.nr;
         node.childSelected = !node.childSelected;
-        while (parentNr) {
-            var parentNode = this.getNode(parentNr);
+        while (nr) {
+            var parentNode = this.getNode(nr);
             if (parentNode != null) {
                 if (node.selected && !parentNode.childSelected) {
                     parentNode.childSelected = true;
                 }
-                else if (!node.selected && !(this.areChildrenSelected(parentNode))) {
+                else if (!node.selected && !(this._areChildrenSelected(parentNode))) {
                     parentNode.childSelected = false;
                 }
                 if (!node.selected) {
@@ -78,10 +72,10 @@ var CaTreeMvcModel = (function (_super) {
                 else if (this._allChildrenSelected(parentNode)) {
                     parentNode.selected = true;
                 }
-                parentNr = parentNode.parentNr;
+                nr = parentNode.parentNr;
             }
             else {
-                parentNr = null;
+                nr = null;
             }
         }
     };
@@ -96,7 +90,7 @@ var CaTreeMvcModel = (function (_super) {
         }
         return true;
     };
-    CaTreeMvcModel.prototype.areChildrenSelected = function (node) {
+    CaTreeMvcModel.prototype._areChildrenSelected = function (node) {
         if (node === null) {
             return;
         }

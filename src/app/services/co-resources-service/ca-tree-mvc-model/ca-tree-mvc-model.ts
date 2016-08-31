@@ -9,12 +9,15 @@ export interface BasicTreeNode extends CoContentDto {
   nr: number;
   parentNr: number;
   extended: boolean;
-  changing: boolean;
 }
 
 export interface SelectableTreeNode extends BasicTreeNode {
   selected: boolean;
   childSelected: boolean;
+}
+
+export interface EditableTreeNode extends BasicTreeNode {
+  changing: boolean;
 }
 
 export class CaTreeMvcModel extends CaBaseMvcModel {
@@ -29,12 +32,6 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
   }
 
   public getNode(nr: number): BasicTreeNode {
-    //let result = this.resources.resource.filter(res => res.nr === nr);
-    //if (result.length === 1) {
-    //  return result[0];
-    //} else {
-    //  return null;
-    //}
     let result = this.resources.resource.map(function (r) {
       return r.content;
     }).filter(res => (res as BasicTreeNode).nr === nr);
@@ -73,15 +70,15 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
   }
 
   public checkParents(node: SelectableTreeNode): void {
-    let parentNr = node.nr;
+    let nr = node.nr;
 
     node.childSelected = !node.childSelected;
-    while (parentNr) {
-      let parentNode: SelectableTreeNode = this.getNode(parentNr) as SelectableTreeNode;
+    while (nr) {
+      let parentNode: SelectableTreeNode = this.getNode(nr) as SelectableTreeNode;
       if (parentNode != null) {
         if (node.selected && !parentNode.childSelected) {
           parentNode.childSelected = true;
-        } else if (!node.selected && !(this.areChildrenSelected(parentNode))) {
+        } else if (!node.selected && !(this._areChildrenSelected(parentNode))) {
           parentNode.childSelected = false;
         }
         if (!node.selected) {
@@ -89,9 +86,9 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
         } else if (this._allChildrenSelected(parentNode)) {
           parentNode.selected = true;
         }
-        parentNr = parentNode.parentNr;
+        nr = parentNode.parentNr;
       } else {
-        parentNr = null;
+        nr = null;
       }
     }
   }
@@ -107,7 +104,7 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
     return true;
   }
 
-  public areChildrenSelected(node: SelectableTreeNode): boolean {
+  private _areChildrenSelected(node: SelectableTreeNode): boolean {
     if (node === null) {
       return;
     }

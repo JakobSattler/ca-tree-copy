@@ -6,7 +6,7 @@ import {CaTreeService} from '../../../services/ca-tree.service';
 import {
   BasicTreeNode,
   CaTreeMvcModel,
-  NodeFilter
+  NodeFilter, EditableTreeNode
 } from '../../../services/co-resources-service/ca-tree-mvc-model/ca-tree-mvc-model';
 import {CaTreeComponent} from '../ca-tree.component';
 
@@ -21,7 +21,6 @@ import {CaTreeComponent} from '../ca-tree.component';
 export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   paddingPerLevel: number = 10;
-  extended: boolean;
 
   @Input()
   localModel: CaTreeMvcModel;
@@ -52,7 +51,6 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   ngOnInit() {
     this.caTreeComponent = this.caTreeService.caTreeComponent;
-
   }
 
   constructor(private caTreeService: CaTreeService) {
@@ -67,7 +65,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   }
 
   ngAfterViewChecked(): void {
-    if (this.node.changing) {
+    if (this.caTreeComponent.editable && (this.node as EditableTreeNode).changing) {
       this.nodeTextInput.nativeElement.focus();
     }
   }
@@ -96,7 +94,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   }
 
   editNode(): void {
-    this.node.changing = true;
+    (this.node as EditableTreeNode).changing = true;
   }
 
   addNode(): void {
@@ -117,7 +115,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   finishNodeChange(): void {
     this.nodeTextInput.nativeElement.blur();
-    this.node.changing = false;
+    (this.node as EditableTreeNode).changing = false;
     if (this.nodeTextInput.nativeElement.value !== '') {
       this.node.name = this.nodeTextInput.nativeElement.value;
     } else if (this.node.name === '') {

@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import {CaTreeService} from '../../services/ca-tree.service';
 //import {CaTreeNodeComponent} from './ca-tree-node/ca-tree-node.component';
 import {
@@ -33,6 +33,12 @@ import {CaTreeNodeComponent} from './ca-tree-node/ca-tree-node.component';
   pipes: [NodeFilter]
 })
 export class CaTreeComponent implements OnInit {
+  @Input()
+  selectable: boolean;
+
+  @Input()
+  editable: boolean;
+
   model: CaTreeMvcModel;
 
   restUri: string = './organisations_flat_copy.json';
@@ -59,24 +65,7 @@ export class CaTreeComponent implements OnInit {
           this.model.resources.resource.push(d2);
         }
       }
-      //this.localModel.resources.node = resources.node;
-      //console.log(resources);
-      //this.localModel.resources.node = resources.node;
-      //let asdf: any[] = resources.node[0].content;
-      //console.log(resources.node[0].content);
-      //console.log(typeof resources.node);
-      //console.log(resources.node.length);
-      //for(let r of resources.node){
-      //  console.log(r);
-      //}
-      //console.log(resources.node);
-      //this.localModel.resources.node = resources.node;
-      //console.log(this.localModel.resources.node);
-      //for (let c of this.localModel.resources.node) {
-      //  console.log(c);
-      //}
     });
-    return null;
   }
 
   public onNodeSelected(node: SelectableTreeNode): void {
@@ -85,13 +74,12 @@ export class CaTreeComponent implements OnInit {
   }
 
   public onNodeExtended(node: SelectableTreeNode): void {
-    this.loadChildren(node);
+    this._loadChildren(node);
     node.extended = !node.extended;
   }
 
-  loadChildren(node: BasicTreeNode) {
+  private _loadChildren(node: BasicTreeNode) {
     //load children + next level to load proper icon
-    console.log("loadChildren");
     this._caResourcesService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
         for (let d1 of resources.resource.filter(res => (res.content as BasicTreeNode).parentNr === node.nr)) {
           if (!this.model.containsNode(d1.content as BasicTreeNode)) {

@@ -1,2 +1,2 @@
 "use strict";
-//# sourceMappingURL=localModel.js.map
+//# sourceMappingURL=model.js.map

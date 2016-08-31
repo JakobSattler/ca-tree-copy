@@ -6,6 +6,7 @@
             [class]="localModel.isNodeLeaf(node) ? 'glyphicon glyphicon-minus' : node.extended ? 'glyphicon glyphicon-menu-down grow'
              : 'glyphicon glyphicon-menu-right grow'" #nodeIcon>
       </span>
+    <span *ngIf="caTreeComponent.selectable">
       <div class="control-group" style="padding-bottom: 4px">
         <label class="control control--checkbox">
 		          <input type="checkbox" (click)="onNodeSelected()"
@@ -19,9 +20,12 @@
 		          <div class="control__indicator"></div>
 	      </label>
         </div>
+      </span>
     <span>
-      <img style="padding-bottom: 5px" *ngIf="node.extended && !localModel.isNodeLeaf(node)" src="{{imgURLOpen}}" width='20' height='25'>
-      <img style="padding-bottom: 5px" *ngIf="!node.extended || localModel.isNodeLeaf(node)" src="{{imgURLClose}}" width='20' height='25'>
+      <img style="padding-bottom: 5px" *ngIf="node.extended && !localModel.isNodeLeaf(node)" src="{{imgURLOpen}}"
+           width='20' height='25'>
+      <img style="padding-bottom: 5px" *ngIf="!node.extended || localModel.isNodeLeaf(node)" src="{{imgURLClose}}"
+           width='20' height='25'>
      </span>
       <a *ngIf="!node.changing"
          href="#"
@@ -34,7 +38,7 @@
              [value]="node.name"
              style="color:black;"
              (blur)="finishNodeChange()" #nodeTextInput/>
-    <span class="btn-group">
+    <span class="btn-group" *ngIf="caTreeComponent.editable">
       <span class="glyphicon glyphicon-triangle-bottom dropdown-toggle"
             data-toggle="dropdown"
             aria-haspopup="true"
