@@ -19,9 +19,8 @@ var ca_tree_mvc_model_2 = require('../../services/co-resources-service/ca-tree-m
 var ca_tree_node_component_1 = require('./ca-tree-node/ca-tree-node.component');
 //import * as _ from 'lodash';
 var CaTreeComponent = (function () {
-    function CaTreeComponent(_caTreeMvcService, _caTreeService) {
+    function CaTreeComponent(_caTreeMvcService) {
         this._caTreeMvcService = _caTreeMvcService;
-        this._caTreeService = _caTreeService;
         this.restUri = './organisations_flat_copy.json';
     }
     CaTreeComponent.prototype.ngOnInit = function () {

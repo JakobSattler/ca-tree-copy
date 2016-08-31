@@ -19,13 +19,6 @@ var CaTreeNodeComponent = (function () {
     CaTreeNodeComponent.prototype.ngOnInit = function () {
         this.caTreeComponent = this._caTreeMvcService.caTreeComponent;
     };
-    CaTreeNodeComponent.prototype.ngAfterViewInit = function () {
-        console.log('afterViewInit');
-        if (this.localModel.isNodeLeaf(this.node)) {
-            this.nodeIcon.nativeElement.class = 'glyphicon glyphicon-minus';
-            console.log(this.node.name + ' is leaf');
-        }
-    };
     CaTreeNodeComponent.prototype.ngAfterViewChecked = function () {
         if (this.caTreeComponent.editable && this.node.changing) {
             this.nodeTextInput.nativeElement.focus();
@@ -54,6 +47,7 @@ var CaTreeNodeComponent = (function () {
         this.node.changing = true;
     };
     CaTreeNodeComponent.prototype.addNode = function () {
+        console.log(JSON.stringify(this.localModel.resources));
         //this.node.extended = true;
         //
         //let node = {
@@ -86,9 +80,6 @@ var CaTreeNodeComponent = (function () {
     __decorate([
         core_1.Input()
     ], CaTreeNodeComponent.prototype, "node");
-    __decorate([
-        core_1.Input()
-    ], CaTreeNodeComponent.prototype, "imgURLClose");
     __decorate([
         core_1.Output()
     ], CaTreeNodeComponent.prototype, "nodeSelected");

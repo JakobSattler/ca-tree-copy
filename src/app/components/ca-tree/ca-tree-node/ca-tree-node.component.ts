@@ -1,8 +1,6 @@
 import {
-  Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewChecked,
-  Inject, forwardRef, AfterViewInit
+  Component, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewChecked,
 } from '@angular/core';
-import {CaTreeService} from '../../../services/ca-tree.service';
 import {
   BasicTreeNode,
   CaTreeMvcModel,
@@ -20,7 +18,7 @@ import {CoContentDto} from '../../../dto/at/campusonline/core/lib/model/codata/m
   directives: [CaTreeNodeComponent],
   pipes: [NodeFilter]
 })
-export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
+export class CaTreeNodeComponent implements AfterViewChecked {
 
   paddingPerLevel: number = 10;
 
@@ -33,7 +31,6 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   @Input()
   node: BasicTreeNode;
 
-  @Input()
   imgURLClose: String = 'http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-44945-128px.png';
   imgURLOpen: String = 'https://freeiconshop.com/files/edd/folder-open-solid.png';
 
@@ -56,14 +53,6 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   ngOnInit() {
     this.caTreeComponent = this._caTreeMvcService.caTreeComponent;
-  }
-
-  ngAfterViewInit(): void {
-    console.log('afterViewInit');
-    if (this.localModel.isNodeLeaf(this.node)) {
-      this.nodeIcon.nativeElement.class = 'glyphicon glyphicon-minus';
-      console.log(this.node.name + ' is leaf');
-    }
   }
 
   ngAfterViewChecked(): void {
@@ -100,6 +89,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   }
 
   addNode(): void {
+    console.log(JSON.stringify(this.localModel.resources));
     //this.node.extended = true;
     //
     //let node = {

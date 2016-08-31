@@ -46,7 +46,7 @@ export class CaTreeComponent implements OnInit {
   //tableModelBuilder: CaTableMvcModelBuilder<CoContentDto> = new CaTableMvcModelBuilder<CoContentDto>();
   localModel: CaTreeMvcModel;
 
-  constructor(private _caTreeMvcService: CaTreeMvcService<CoContentDto>, private _caTreeService: CaTreeService) {
+  constructor(private _caTreeMvcService: CaTreeMvcService<CoContentDto>) {
   }
 
   ngOnInit(): void {
@@ -82,11 +82,11 @@ export class CaTreeComponent implements OnInit {
     //load children + next level to load proper icon
     this._caTreeMvcService.init(this.caUri).subscribe((resources: CoResources<CoContentDto>) => {
         for (let d1 of resources.resource.filter(res => (res.content as BasicTreeNode).parentNr === node.nr)) {
-          if (!this.model.containsNode(d1.content as BasicTreeNode)) {
+          if (!this.model.containsNode(d1.content)) {
             this.model.resources.resource.push(d1);
           }
           for (let d2 of resources.resource.filter(res => (res.content as BasicTreeNode).parentNr === (d1.content as BasicTreeNode).nr)) {
-            if (!this.model.containsNode(d2.content as BasicTreeNode)) {
+            if (!this.model.containsNode(d2.content)) {
               this.model.resources.resource.push(d2);
             }
           }
