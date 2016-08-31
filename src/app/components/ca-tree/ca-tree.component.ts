@@ -59,9 +59,9 @@ export class CaTreeComponent implements OnInit {
           this.model.resources.resource.push(d2);
         }
       }
-      //this.model.resources.node = resources.node;
+      //this.localModel.resources.node = resources.node;
       //console.log(resources);
-      //this.model.resources.node = resources.node;
+      //this.localModel.resources.node = resources.node;
       //let asdf: any[] = resources.node[0].content;
       //console.log(resources.node[0].content);
       //console.log(typeof resources.node);
@@ -70,9 +70,9 @@ export class CaTreeComponent implements OnInit {
       //  console.log(r);
       //}
       //console.log(resources.node);
-      //this.model.resources.node = resources.node;
-      //console.log(this.model.resources.node);
-      //for (let c of this.model.resources.node) {
+      //this.localModel.resources.node = resources.node;
+      //console.log(this.localModel.resources.node);
+      //for (let c of this.localModel.resources.node) {
       //  console.log(c);
       //}
     });

@@ -18,4 +18,4 @@
     CoRelType[CoRelType["external"] = 'EXTERNAL'] = "external";
 })(exports.CoRelType || (exports.CoRelType = {}));
 var CoRelType = exports.CoRelType;
-//# sourceMappingURL=model.js.map
+//# sourceMappingURL=localModel.js.map

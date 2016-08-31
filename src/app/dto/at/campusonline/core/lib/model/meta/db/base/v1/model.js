@@ -56,4 +56,4 @@ var AttributeType = exports.AttributeType;
     FilterOperatorType[FilterOperatorType["STARTS_WITH_IGNORE_CASE"] = 'STARTS_WITH_IGNORE_CASE'] = "STARTS_WITH_IGNORE_CASE";
 })(exports.FilterOperatorType || (exports.FilterOperatorType = {}));
 var FilterOperatorType = exports.FilterOperatorType;
-//# sourceMappingURL=model.js.map
+//# sourceMappingURL=localModel.js.map

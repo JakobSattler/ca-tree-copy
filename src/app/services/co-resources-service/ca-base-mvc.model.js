@@ -9,7 +9,7 @@ var CaBaseMvcModel = (function () {
     }
     CaBaseMvcModel.getTableMvcCopy = function (model) {
         var copy;
-        //copy = <CaBaseMvcModel>CaUtilsService.deepCopy(model);
+        //copy = <CaBaseMvcModel>CaUtilsService.deepCopy(localModel);
         return copy;
     };
     CaBaseMvcModel.prototype.getResources = function () {

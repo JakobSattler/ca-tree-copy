@@ -10,7 +10,7 @@ import {CoRelType} from '../../dto/at/campusonline/core/lib/model/codata/annotat
 
 export class CoDataConstants {
     public static get CONTENT_TYPE_GENERIC():string {
-        return 'model-generic';
+        return 'localModel-generic';
     }
 
     public static get CONTENT_ROOT_GENERIC():string {
@@ -46,7 +46,7 @@ export class CaDataModel<T extends CoContentDto> {
     //get(link:CoLink):Observable<CaResponse<T>> ;
 
     /**
-     * Initial load, after response received, set correct Endpoint Information to use in model. (e.g. restApi, restResource,
+     * Initial load, after response received, set correct Endpoint Information to use in localModel. (e.g. restApi, restResource,
      * links -> put... delete)
      * @param restApi
      * @param restResource

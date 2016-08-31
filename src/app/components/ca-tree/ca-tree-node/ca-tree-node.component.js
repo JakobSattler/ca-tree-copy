@@ -21,7 +21,7 @@ var CaTreeNodeComponent = (function () {
     };
     CaTreeNodeComponent.prototype.ngAfterViewInit = function () {
         console.log('afterViewInit');
-        if (this.model.isNodeLeaf(this.node)) {
+        if (this.localModel.isNodeLeaf(this.node)) {
             this.nodeIcon.nativeElement.class = 'glyphicon glyphicon-minus';
             console.log(this.node.name + ' is leaf');
         }
@@ -32,7 +32,6 @@ var CaTreeNodeComponent = (function () {
         }
     };
     CaTreeNodeComponent.prototype.onNodeExtended = function () {
-        //this.extended = !this.extended;
         this.nodeExtended.emit(this.node);
     };
     CaTreeNodeComponent.prototype.getPadding = function () {
@@ -59,7 +58,7 @@ var CaTreeNodeComponent = (function () {
         //
         //let node = {
         //  name: '',
-        //  nr: this.model.getNewID(),
+        //  nr: this.localModel.getNewID(),
         //  parentNr: this.node.nr,
         //  extended: false,
         //  changing: true,
@@ -67,7 +66,7 @@ var CaTreeNodeComponent = (function () {
         //  childSelected: false
         //};
         //
-        //this.model.addNode(node);
+        //this.localModel.addNode(node);
     };
     CaTreeNodeComponent.prototype.finishNodeChange = function () {
         this.nodeTextInput.nativeElement.blur();
@@ -80,7 +79,7 @@ var CaTreeNodeComponent = (function () {
     };
     __decorate([
         core_1.Input()
-    ], CaTreeNodeComponent.prototype, "model");
+    ], CaTreeNodeComponent.prototype, "localModel");
     __decorate([
         core_1.Input()
     ], CaTreeNodeComponent.prototype, "level");

@@ -62,6 +62,7 @@ export class CaTreeMvcModel extends CaBaseMvcModel {
 
       node.selected = selected;
       this.checkParents(node as SelectableTreeNode);
+
       let children = this.resources.resource.map(function (r) {
         return r.content;
       }).filter(res => (res as BasicTreeNode).parentNr === node.nr);

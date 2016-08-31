@@ -6,7 +6,7 @@ var CoDataConstants = (function () {
     }
     Object.defineProperty(CoDataConstants, "CONTENT_TYPE_GENERIC", {
         get: function () {
-            return 'model-generic';
+            return 'localModel-generic';
         },
         enumerable: true,
         configurable: true
@@ -40,7 +40,7 @@ var CaDataModel = (function () {
     //get():Observable<CaResponse<T>> ;
     //get(link:CoLink):Observable<CaResponse<T>> ;
     /**
-     * Initial load, after response received, set correct Endpoint Information to use in model. (e.g. restApi, restResource,
+     * Initial load, after response received, set correct Endpoint Information to use in localModel. (e.g. restApi, restResource,
      * links -> put... delete)
      * @param restApi
      * @param restResource

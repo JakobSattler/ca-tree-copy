@@ -16,7 +16,7 @@ var HttpHeaderBuilder = (function () {
     };
     HttpHeaderBuilder.prototype.addContentTypeModel = function (modeltype) {
         if (modeltype) {
-            this.headers.append('Content-Type', 'application/json;model=' + modeltype);
+            this.headers.append('Content-Type', 'application/json;localModel=' + modeltype);
         }
         else {
             this.headers.append('Content-Type', 'application/json');

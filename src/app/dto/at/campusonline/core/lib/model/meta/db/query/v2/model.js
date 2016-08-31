@@ -14,4 +14,4 @@ var Direction = exports.Direction;
     NullsOrdering[NullsOrdering["LAST"] = 'LAST'] = "LAST";
 })(exports.NullsOrdering || (exports.NullsOrdering = {}));
 var NullsOrdering = exports.NullsOrdering;
-//# sourceMappingURL=model.js.map
+//# sourceMappingURL=localModel.js.map

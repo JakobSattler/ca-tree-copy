@@ -22,7 +22,7 @@ export class HttpHeaderBuilder {
 
   addContentTypeModel(modeltype:string):HttpHeaderBuilder {
     if (modeltype) {
-      this.headers.append('Content-Type', 'application/json;model=' + modeltype);
+      this.headers.append('Content-Type', 'application/json;localModel=' + modeltype);
     } else {
       this.headers.append('Content-Type', 'application/json');
     }

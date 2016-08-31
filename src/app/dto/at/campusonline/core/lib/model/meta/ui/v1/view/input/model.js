@@ -26,4 +26,4 @@ var SelectType = exports.SelectType;
     MultiSelectType[MultiSelectType["list"] = 'LIST'] = "list";
 })(exports.MultiSelectType || (exports.MultiSelectType = {}));
 var MultiSelectType = exports.MultiSelectType;
-//# sourceMappingURL=model.js.map
+//# sourceMappingURL=localModel.js.map

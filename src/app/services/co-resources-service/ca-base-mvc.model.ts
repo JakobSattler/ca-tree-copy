@@ -12,7 +12,7 @@ export class CaBaseMvcModel {
 
   static getTableMvcCopy(model:CaBaseMvcModel):CaBaseMvcModel {
     let copy:CaBaseMvcModel;
-    //copy = <CaBaseMvcModel>CaUtilsService.deepCopy(model);
+    //copy = <CaBaseMvcModel>CaUtilsService.deepCopy(localModel);
     return copy;
   }
 

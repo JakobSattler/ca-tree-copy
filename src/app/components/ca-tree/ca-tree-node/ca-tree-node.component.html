@@ -3,7 +3,7 @@
 <div *ngIf="node" [style.padding-left]="getPadding()">
   <span class=" hvr-sweep-to-right " style="color:#00A2E8;padding: 5px;float:auto; width:80%;">
       <span (click)="onNodeExtended()" style="padding-top: 6px"
-            [class]="model.isNodeLeaf(node) ? 'glyphicon glyphicon-minus' : node.extended ? 'glyphicon glyphicon-menu-down grow'
+            [class]="localModel.isNodeLeaf(node) ? 'glyphicon glyphicon-minus' : node.extended ? 'glyphicon glyphicon-menu-down grow'
              : 'glyphicon glyphicon-menu-right grow'" #nodeIcon>
       </span>
       <div class="control-group" style="padding-bottom: 4px">
@@ -14,14 +14,14 @@
 	      </label>
         </div>
        <div class="control-group" style="padding-bottom: 4px">
-	      <label class="control control--checkbox" [style.visibility]="model.isNodeLeaf(node) ? 'hidden' : ''">
+	      <label class="control control--checkbox" [style.visibility]="localModel.isNodeLeaf(node) ? 'hidden' : ''">
 		          <input type="checkbox" [(ngModel)]="node.childSelected" disabled/>
 		          <div class="control__indicator"></div>
 	      </label>
         </div>
     <span>
-      <img style="padding-bottom: 5px" *ngIf="node.extended && !model.isNodeLeaf(node)" src="{{imgURLOpen}}" width='20' height='25'>
-      <img style="padding-bottom: 5px" *ngIf="!node.extended || model.isNodeLeaf(node)" src="{{imgURLClose}}" width='20' height='25'>
+      <img style="padding-bottom: 5px" *ngIf="node.extended && !localModel.isNodeLeaf(node)" src="{{imgURLOpen}}" width='20' height='25'>
+      <img style="padding-bottom: 5px" *ngIf="!node.extended || localModel.isNodeLeaf(node)" src="{{imgURLClose}}" width='20' height='25'>
      </span>
       <a *ngIf="!node.changing"
          href="#"
@@ -64,10 +64,10 @@
 </div>
 
 <template [ngIf]="node.extended">
-  <ca-tree-node *ngFor="let res of model.resources.resource | nodeChildFilter : node.nr"
+  <ca-tree-node *ngFor="let res of localModel.resources.resource | nodeChildFilter : node.nr"
                 [node]="res.content"
                 [level]="level + 1"
-                [model]="model"
+                [localModel]="localModel"
                 (nodeSelected)="caTreeComponent.onNodeSelected($event)"
                 (nodeExtended)="caTreeComponent.onNodeExtended($event)">
   </ca-tree-node>

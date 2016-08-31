@@ -18,9 +18,9 @@ export class CaTreeMvcService<T extends CoContentDto> extends CaResourcesService
   dispatchAction(action:CaResourcesBaseAction):Observable<CoResources<T>> {
     //switch (action.action) {
     //  case actions.CA_TABLE_DELETE:
-    //    return this.fetchDataModel(action.model);
+    //    return this.fetchDataModel(action.localModel);
     //  default:
-    //    return this.fetchDataModel(action.model);
+    //    return this.fetchDataModel(action.localModel);
     //}
     return null;
   }

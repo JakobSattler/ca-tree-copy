@@ -24,7 +24,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   extended: boolean;
 
   @Input()
-  model: CaTreeMvcModel;
+  localModel: CaTreeMvcModel;
 
   @Input()
   level: number;
@@ -60,7 +60,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
 
   ngAfterViewInit(): void {
     console.log('afterViewInit');
-    if (this.model.isNodeLeaf(this.node)) {
+    if (this.localModel.isNodeLeaf(this.node)) {
       this.nodeIcon.nativeElement.class = 'glyphicon glyphicon-minus';
       console.log(this.node.name + ' is leaf');
     }
@@ -73,7 +73,6 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
   }
 
   onNodeExtended(): void {
-    //this.extended = !this.extended;
     this.nodeExtended.emit(this.node);
   }
 
@@ -105,7 +104,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
     //
     //let node = {
     //  name: '',
-    //  nr: this.model.getNewID(),
+    //  nr: this.localModel.getNewID(),
     //  parentNr: this.node.nr,
     //  extended: false,
     //  changing: true,
@@ -113,7 +112,7 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
     //  childSelected: false
     //};
     //
-    //this.model.addNode(node);
+    //this.localModel.addNode(node);
   }
 
   finishNodeChange(): void {
@@ -122,11 +121,11 @@ export class CaTreeNodeComponent implements AfterViewChecked, AfterViewInit {
     if (this.nodeTextInput.nativeElement.value !== '') {
       this.node.name = this.nodeTextInput.nativeElement.value;
     } else if (this.node.name === '') {
-      //this.model.removeNode(this.node);
+      //this.localModel.removeNode(this.node);
     }
   }
 
   //removeNode(): void {
-  //  this.model.removeNode(this.node);
+  //  this.localModel.removeNode(this.node);
   //}
 }

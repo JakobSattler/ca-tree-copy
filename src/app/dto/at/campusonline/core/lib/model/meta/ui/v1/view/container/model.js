@@ -12,4 +12,4 @@ var TableColAlignmentType = exports.TableColAlignmentType;
     TableColFieldType[TableColFieldType["select"] = 'SELECT'] = "select";
 })(exports.TableColFieldType || (exports.TableColFieldType = {}));
 var TableColFieldType = exports.TableColFieldType;
-//# sourceMappingURL=model.js.map
+//# sourceMappingURL=localModel.js.map
