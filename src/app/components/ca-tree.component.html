@@ -1,0 +1,21 @@
+<!--<hr>-->
+<!--<template [ngIf]="localModel.resources">-->
+<!--<co-tree-node *ngFor="let res of localModel.resources | nodefilter: 'parentNr' : ''"-->
+<!--(nodeSelected)="onNodeSelected($event)"-->
+<!--(nodeExtended)="onNodeExtended($event)"-->
+<!--[node]="res"-->
+<!--[level]="0"-->
+<!--[localModel]="localModel">-->
+<!--</co-tree-node>-->
+<!--</template>-->
+<template [ngIf]="localModel && localModel.resources.resource">
+  <!--<p *ngFor="let res of localModel.resources.resource | nodefilter : 'parentNr' : ''">{{res.name}}</p><br>-->
+  <ca-tree-node *ngFor="let res of localModel.resources.resource | nodeChildFilter : ''"
+                [node]="res.content"
+                [localModel]="localModel"
+                [level]="0"
+                (nodeExtended)="onNodeExtended($event)"
+                (nodeSelected)="onNodeSelected($event)"
+                (onAction)="onAction($event)">
+  </ca-tree-node>
+</template>
